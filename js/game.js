@@ -121,22 +121,21 @@ class Game{
         fuels = new Group();
 
 
-
         var obstacles1 = [
-            { x: width / 2 - 150, y: height - 1300, image: obsImg1 },
-            { x: width / 2 + 250, y: height - 1800, image: obsImg1 },
-            { x: width / 2 - 180, y: height - 3300, image: obsImg1 },
-            { x: width / 2 - 150, y: height - 4300, image: obsImg1 },
-            { x: width / 2, y: height - 5300, image: obsImg1 },
-            { x: width / 2 - 180, y: height - 5500, image: obsImg1 }
+            { x: width / 2 - 150, y: height - 1300},
+            { x: width / 2 + 250, y: height - 1800},
+            { x: width / 2 - 180, y: height - 3300},
+            { x: width / 2 - 150, y: height - 4300},
+            { x: width / 2, y: height - 5300},
+            { x: width / 2 - 180, y: height - 5500}
         ];
         var obstacles2 = [
-            { x: width / 2 + 250, y: height - 800, image: obsImg2 },
-            { x: width / 2 - 180, y: height - 2300, image: obsImg2 },
-            { x: width / 2, y: height - 2800, image: obsImg2 },
-            { x: width / 2 + 180, y: height - 3300, image: obsImg2 },
-            { x: width / 2 + 250, y: height - 3800, image: obsImg2 },
-            { x: width / 2 + 250, y: height - 4800, image: obsImg2 },
+            { x: width / 2 + 250, y: height - 800},
+            { x: width / 2 - 180, y: height - 2300},
+            { x: width / 2, y: height - 2800},
+            { x: width / 2 + 180, y: height - 3300},
+            { x: width / 2 + 250, y: height - 3800},
+            { x: width / 2 + 250, y: height - 4800},
         ];
         //criando as sprites...
         this.addSprites(coins, coinImg, 35, 0.5);
